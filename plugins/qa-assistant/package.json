@@ -1,0 +1,29 @@
+{
+  "name": "qa-assistant",
+  "version": "1.0.0",
+  "description": "Comprehensive quality assurance and production readiness checks for code projects",
+  "main": "index.js",
+  "author": {
+    "name": "cbuntingde",
+    "email": "cbuntingde@gmail.com"
+  },
+  "homepage": "https://github.com/cbuntingde/claude-plugins-dev/tree/main/plugins/qa-assistant",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbuntingde/claude-plugins-dev.git",
+    "directory": "plugins/qa-assistant"
+  },
+  "bugs": {
+    "url": "https://github.com/cbuntingde/claude-plugins-dev/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "qa",
+    "quality-assurance",
+    "testing",
+    "code-quality",
+    "breakage-detection",
+    "production-readiness",
+    "static-analysis"
+  ]
+}

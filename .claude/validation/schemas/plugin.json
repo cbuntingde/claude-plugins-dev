@@ -1,0 +1,81 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/cbuntingde/claude-plugins-dev/.claude/validation/schemas/plugin.json",
+  "title": "Claude Plugin Metadata Schema",
+  "description": "Schema for .claude-plugin/plugin.json files",
+  "type": "object",
+  "required": ["name", "version", "description", "author"],
+  "additionalProperties": false,
+  "properties": {
+    "name": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "maxLength": 50,
+      "description": "Plugin name in kebab-case"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)(?:-((?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\\.(?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\\+([0-9a-zA-Z-]+(?:\\.[0-9a-zA-Z-]+)*))?$",
+      "description": "Semantic version"
+    },
+    "description": {
+      "type": "string",
+      "maxLength": 200,
+      "description": "Brief description of the plugin"
+    },
+    "author": {
+      "type": "object",
+      "required": ["name", "email"],
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 100
+        },
+        "email": {
+          "type": "string",
+          "format": "email",
+          "maxLength": 200
+        }
+      }
+    },
+    "commands": {
+      "type": "array",
+      "description": "List of command definition files",
+      "items": {
+        "type": "string",
+        "pattern": "^\\./.*\\.md$"
+      }
+    },
+    "agents": {
+      "type": "array",
+      "description": "List of agent definition files",
+      "items": {
+        "type": "string",
+        "pattern": "^\\./.*\\.md$"
+      }
+    },
+    "skills": {
+      "type": "array",
+      "description": "List of skill directory paths",
+      "items": {
+        "type": "string",
+        "pattern": "^\\./.*/$"
+      }
+    },
+    "hooks": {
+      "type": "object",
+      "description": "Hook configurations for the plugin",
+      "additionalProperties": true
+    },
+    "mcpServers": {
+      "type": "object",
+      "description": "MCP server configurations"
+    },
+    "lspServers": {
+      "type": "object",
+      "description": "LSP server configurations"
+    }
+  }
+}

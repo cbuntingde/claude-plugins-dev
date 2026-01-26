@@ -1,0 +1,32 @@
+{
+  "name": "semantic-code-search",
+  "version": "1.0.0",
+  "description": "Context-aware semantic code search plugin for Claude Code",
+  "main": "servers/semantic-search-server.js",
+  "scripts": {
+    "test": "node scripts/test-server.js"
+  },
+  "keywords": [
+    "claude-code",
+    "plugin",
+    "semantic-search",
+    "code-search",
+    "vector-search"
+  ],
+  "author": {
+    "name": "cbuntingde",
+    "email": "cbuntingde@gmail.com"
+  },
+  "homepage": "https://github.com/cbuntingde/claude-plugins-dev/tree/main/plugins/semantic-code-search",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbuntingde/claude-plugins-dev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cbuntingde/claude-plugins-dev/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "name": "dead-code-hunter",
+  "version": "1.0.0",
+  "description": "Finds truly unused code, identifies zombie config/files, and provides safe removal with rollback suggestions",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "author": {
+    "name": "Chris Bunting",
+    "email": "cbuntingde@gmail.com",
+    "url": "https://github.com/cbuntingde"
+  },
+  "homepage": "https://github.com/cbuntingde/claude-plugins-dev/tree/main/plugins/dead-code-hunter",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbuntingde/claude-plugins-dev.git",
+    "directory": "plugins/dead-code-hunter"
+  },
+  "bugs": {
+    "url": "https://github.com/cbuntingde/claude-plugins-dev/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "claude-plugin",
+    "dead-code",
+    "code-analysis",
+    "refactoring",
+    "cleanup",
+    "zombie-files",
+    "backup",
+    "restore"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coverageThreshold": {
+      "global": {
+        "branches": 80,
+        "functions": 80,
+        "lines": 80,
+        "statements": 80
+      }
+    },
+    "collectCoverageFrom": [
+      "index.js",
+      "!node_modules/**"
+    ]
+  }
+}

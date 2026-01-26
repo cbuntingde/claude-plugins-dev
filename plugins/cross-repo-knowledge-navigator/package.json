@@ -1,0 +1,38 @@
+{
+  "name": "cross-repo-knowledge-navigator",
+  "version": "1.0.0",
+  "description": "AI-powered knowledge navigator that searches across multiple repositories, Slack threads, Jira tickets, and Confluence docs to answer company-wide questions",
+  "main": "index.js",
+  "scripts": {
+    "knowledge-search": "node scripts/knowledge-search.js",
+    "decision-tracker": "node scripts/decision-tracker.js",
+    "team-practices": "node scripts/team-practices.js"
+  },
+  "keywords": [
+    "knowledge",
+    "search",
+    "cross-repo",
+    "documentation",
+    "slack",
+    "jira",
+    "confluence",
+    "decision-tracker"
+  ],
+  "author": {
+    "name": "cbuntingde",
+    "email": "cbuntingde@gmail.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/cbuntingde/claude-plugins-dev/tree/main/plugins/cross-repo-knowledge-navigator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbuntingde/claude-plugins-dev.git",
+    "directory": "plugins/cross-repo-knowledge-navigator"
+  },
+  "bugs": {
+    "url": "https://github.com/cbuntingde/claude-plugins-dev/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

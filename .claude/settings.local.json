@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add -A)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nfeat: add new plugin templates and complete marketplace plugins\n\n- Add api-client-generator plugin for generating API clients\n- Add api-design-validator for OpenAPI specification validation\n- Add api-integration-generator for integration code generation\n- Add aria-improver for accessibility improvements\n- Add bundle-size-analyzer for optimization analysis\n- Add ci-cd-pipeline-generator for CI/CD configurations\n- Add claude-code-api-doc-plugin for API documentation\n- Add claude-code-circular-deps-plugin for dependency analysis\n- Add claude-crud-generator for CRUD operations\n- Add claude-migration-generator for database migrations\n- Add code-complexity-analyzer for code metrics\n- Add code-migration-assistant for refactoring help\n- Add cross-repo-knowledge-navigator for codebase navigation\n- Add deployment-strategies-plugin for deployment patterns\n- Add env-generator-plugin for environment management\n- Add env-var-detect for environment variable scanning\n- Add error-explainer for error diagnosis\n- Add intelligent-refactoring-assistant for refactoring guidance\n- Add living-doc-plugin for documentation\n- Add mock-api-server for API mocking\n- Add openapi-generator for OpenAPI specs\n- Add optimization-suggester for performance tuning\n- Add orm-sql-converter for database conversions\n- Add performance-profiler for profiling tools\n- Add production-debugging-assistant for debugging\n- Add semantic-code-search for code search\n- Add sql-query-optimizer for query optimization\n- Add style-guide-enforcer for linting\n- Add tech-debt-tracker for debt management\n- Add wcag-scanner-plugin for accessibility\n- Update architecture-advisor plugin\n- Update auto-quality-gates plugin\n- Update dependency-safety-scanner\n- Update memory-leak-detector-plugin\n- Update security-scanner-plugin\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push origin main)",
+      "Bash(git add README.md)",
+      "Bash(git commit -m \"docs: add api-client-generator to marketplace README\n\nAdd the api-client-generator plugin to the plugins table with description\nand categories. Update stats from 6 to 7 plugins and add the API category.\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\")",
+      "Bash(git add plugins/api-client-generator/.claude-plugin/plugin.json)",
+      "Bash(git commit -m \"fix: simplify plugin.json to only include permitted fields\n\nRemove extra fields from plugin.json to comply with CLAUDE.md guidelines.\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\")",
+      "Bash(git add plugins/api-client-generator/scripts/generate-client.js)",
+      "Bash(git commit -m \"fix: replace non-null assertion with nullish coalescing operator\n\nReplace timeout! with timeout ?? 30000 to properly handle optional config.\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\")",
+      "Bash(node:*)"
+    ]
+  }
+}

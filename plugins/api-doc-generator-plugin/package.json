@@ -1,0 +1,28 @@
+{
+  "name": "api-doc-generator",
+  "version": "1.0.0",
+  "description": "Generate API documentation from source code and OpenAPI specifications",
+  "author": {
+    "name": "cbuntingde",
+    "email": "cbuntingde@gmail.com"
+  },
+  "homepage": "https://github.com/cbuntingde/claude-plugins-dev/tree/main/plugins/api-doc-generator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbuntingde/claude-plugins-dev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cbuntingde/claude-plugins-dev/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "api",
+    "documentation",
+    "openapi",
+    "swagger",
+    "markdown"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "style-guide-enforcer",
+  "version": "1.0.0",
+  "description": "Style guide enforcer that maintains consistency with team conventions",
+  "homepage": "https://github.com/cbuntingde/claude-plugins-dev/tree/main/plugins/style-guide-enforcer",
+  "main": "scripts/validate-style.js",
+  "scripts": {
+    "validate": "node scripts/validate-style.js",
+    "test": "node scripts/test-rules.js"
+  },
+  "keywords": [
+    "claude-code",
+    "plugin",
+    "style-guide",
+    "linting",
+    "code-quality",
+    "conventions"
+  ],
+  "author": {
+    "name": "cbuntingde",
+    "email": "cbuntingde@gmail.com"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

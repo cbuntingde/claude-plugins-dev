@@ -1,0 +1,35 @@
+{
+  "name": "mock-api-server-plugin",
+  "version": "1.0.0",
+  "description": "Mock API servers for testing - Claude Code Plugin",
+  "main": "scripts/mock-api-server.js",
+  "scripts": {
+    "start": "node scripts/mock-api-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mock-api",
+    "testing",
+    "api-server",
+    "claude-code",
+    "plugin"
+  ],
+  "author": {
+    "name": "cbuntingde",
+    "email": "cbuntingde@gmail.com"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbuntingde/claude-plugins-dev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cbuntingde/claude-plugins-dev/issues"
+  },
+  "homepage": "https://github.com/cbuntingde/claude-plugins-dev/tree/main/plugins/mock-api-server-plugin"
+}

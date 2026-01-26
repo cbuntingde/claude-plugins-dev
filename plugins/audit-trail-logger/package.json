@@ -1,0 +1,29 @@
+{
+  "name": "audit-trail-logger",
+  "version": "1.0.0",
+  "description": "Comprehensive audit trail logging for file changes, commands, and decisions for compliance reporting",
+  "author": {
+    "name": "cbuntingde",
+    "email": "cbuntingde@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbuntingde/claude-plugins-dev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cbuntingde/claude-plugins-dev/issues",
+    "email": "cbuntingde@gmail.com"
+  },
+  "homepage": "https://github.com/cbuntingde/claude-plugins-dev/tree/main/plugins/audit-trail-logger",
+  "license": "MIT",
+  "keywords": [
+    "claude-plugin",
+    "audit-trail",
+    "compliance",
+    "logging",
+    "security"
+  ],
+  "engines": {
+    "bash": ">=4.0"
+  }
+}

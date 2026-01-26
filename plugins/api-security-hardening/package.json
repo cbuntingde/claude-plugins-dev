@@ -1,0 +1,68 @@
+{
+  "name": "api-security-hardening",
+  "version": "1.0.0",
+  "description": "API security hardening plugin for Claude Code - CORS, CSRF, XSS protection, API key rotation, JWT flows",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "api-security-audit": "node scripts/api-security-audit.js",
+    "cors-setup": "node scripts/cors-setup.js",
+    "csrf-protection": "node scripts/csrf-protection.js",
+    "xss-prevention": "node scripts/xss-prevention.js",
+    "jwt-validate": "node scripts/jwt-validate.js",
+    "api-key-rotate": "node scripts/api-key-rotate.js",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch",
+    "lint": "eslint *.js lib/*.js scripts/*.js",
+    "validate": "node -e \"console.log(JSON.stringify(require('./lib/config-validator').validateConfig(require('./lib/config-validator').applySecurityDefaults({})), null, 2))\""
+  },
+  "keywords": [
+    "api-security",
+    "cors",
+    "csrf",
+    "xss",
+    "jwt",
+    "api-key",
+    "security-hardening",
+    "owasp"
+  ],
+  "author": {
+    "name": "cbuntingde",
+    "email": "cbuntingde@gmail.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/cbuntingde/claude-plugins-dev/tree/main/plugins/api-security-hardening",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbuntingde/claude-plugins-dev.git",
+    "directory": "plugins/api-security-hardening"
+  },
+  "bugs": {
+    "url": "https://github.com/cbuntingde/claude-plugins-dev/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "eslint": "^8.57.0"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "lib/",
+    "scripts/",
+    "commands/",
+    "agents/",
+    "skills/",
+    "hooks/",
+    "tests/",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ]
+}

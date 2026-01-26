@@ -1,0 +1,32 @@
+{
+  "name": "code-complexity-analyzer",
+  "version": "1.0.0",
+  "description": "Analyzes code complexity and provides intelligent refactoring suggestions to improve maintainability",
+  "author": {
+    "name": "cbuntingde",
+    "email": "cbuntingde@gmail.com"
+  },
+  "homepage": "https://github.com/cbuntingde/claude-plugins-dev/tree/main/plugins/code-complexity-analyzer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbuntingde/claude-plugins-dev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cbuntingde/claude-plugins-dev/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "complexity",
+    "refactoring",
+    "code-quality",
+    "analysis",
+    "cyclomatic-complexity",
+    "cognitive-complexity"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "test": "echo \"No tests specified\" && exit 0"
+  }
+}

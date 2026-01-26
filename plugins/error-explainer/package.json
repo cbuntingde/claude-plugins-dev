@@ -1,0 +1,18 @@
+{
+  "name": "error-explainer",
+  "version": "1.0.0",
+  "description": "Provides context and solutions for cryptic error messages",
+  "author": {
+    "name": "cbuntingde",
+    "email": "cbuntingde@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbuntingde/claude-plugins-dev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cbuntingde/claude-plugins-dev/issues"
+  },
+  "homepage": "https://github.com/cbuntingde/claude-plugins-dev/tree/main/plugins/error-explainer",
+  "license": "MIT"
+}

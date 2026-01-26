@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/cbuntingde/claude-plugins-dev/.claude/validation/schemas/plugin-package.json",
+  "title": "Plugin Package.json Schema",
+  "description": "Extended schema for plugin package.json files",
+  "type": "object",
+  "required": ["name", "version", "description", "author"],
+  "properties": {
+    "name": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "maxLength": 50
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)"
+    },
+    "description": {
+      "type": "string",
+      "maxLength": 200
+    },
+    "author": {
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "object",
+          "required": ["name", "email"],
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "email": {
+              "type": "string",
+              "format": "email"
+            }
+          }
+        }
+      ]
+    },
+    "repository": {
+      "type": "object",
+      "required": ["type", "url"],
+      "properties": {
+        "type": {
+          "const": "git"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      }
+    },
+    "bugs": {
+      "type": "object",
+      "required": ["url"],
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      }
+    },
+    "homepage": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "https://github\\.com/cbuntingde/claude-plugins-dev"
+    },
+    "license": {
+      "type": "string"
+    },
+    "engines": {
+      "type": "object",
+      "properties": {
+        "bash": {
+          "type": "string"
+        },
+        "node": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

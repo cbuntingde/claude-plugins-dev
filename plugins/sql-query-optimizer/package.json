@@ -1,0 +1,40 @@
+{
+  "name": "sql-query-optimizer",
+  "version": "1.0.0",
+  "description": "Intelligent SQL query optimizer plugin for Claude Code that analyzes, refactors, and optimizes complex SQL queries for better database performance",
+  "main": "index.js",
+  "scripts": {
+    "analyze-query": "node scripts/analyze-query.js",
+    "explain-plan": "node scripts/explain-plan.js",
+    "optimize-sql": "node scripts/optimize-sql.js",
+    "refactor-query": "node scripts/refactor-query.js",
+    "suggest-indexes": "node scripts/suggest-indexes.js"
+  },
+  "keywords": [
+    "sql",
+    "query",
+    "optimizer",
+    "database",
+    "performance",
+    "index",
+    "postgresql",
+    "mysql"
+  ],
+  "author": {
+    "name": "Chris Bunting",
+    "email": "cbuntingde@gmail.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/cbuntingde/claude-plugins-dev/tree/main/plugins/sql-query-optimizer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbuntingde/claude-plugins-dev.git",
+    "directory": "plugins/sql-query-optimizer"
+  },
+  "bugs": {
+    "url": "https://github.com/cbuntingde/claude-plugins-dev/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

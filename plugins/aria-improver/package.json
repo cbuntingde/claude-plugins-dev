@@ -1,0 +1,22 @@
+{
+  "name": "aria-improver",
+  "version": "1.0.0",
+  "description": "Suggests ARIA labels and semantic HTML improvements for better accessibility and SEO",
+  "author": {
+    "name": "cbuntingde",
+    "email": "cbuntingde@gmail.com"
+  },
+  "keywords": ["accessibility", "aria", "semantic-html", "a11y", "seo"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbuntingde/claude-plugins-dev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cbuntingde/claude-plugins-dev/issues"
+  },
+  "homepage": "https://github.com/cbuntingde/claude-plugins-dev/tree/main/plugins/aria-improver",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "production-debugging-assistant",
+  "version": "1.0.0",
+  "description": "Correlate errors across logs, metrics, and traces during production incidents to identify root causes faster",
+  "author": {
+    "name": "cbuntingde",
+    "email": "cbuntingde@gmail.com"
+  },
+  "homepage": "https://github.com/cbuntingde/claude-plugins-dev/tree/main/plugins/production-debugging-assistant",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbuntingde/claude-plugins-dev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cbuntingde/claude-plugins-dev/issues"
+  },
+  "license": "MIT",
+  "type": "module",
+  "exports": "./index.js"
+}

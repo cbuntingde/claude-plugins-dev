@@ -1,0 +1,44 @@
+{
+  "name": "claude-migration-generator",
+  "version": "1.0.0",
+  "description": "Generate database migrations from schema descriptions across multiple frameworks",
+  "main": "index.js",
+  "scripts": {
+    "test": "node scripts/generate-migration.js",
+    "validate": "claude plugin validate ."
+  },
+  "keywords": [
+    "claude-code",
+    "plugin",
+    "migration",
+    "database",
+    "orm",
+    "schema"
+  ],
+  "author": {
+    "name": "cbuntingde",
+    "email": "cbuntingde@gmail.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/cbuntingde/claude-plugins-dev/tree/main/plugins/claude-migration-generator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbuntingde/claude-plugins-dev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cbuntingde/claude-plugins-dev/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    ".claude-plugin/",
+    "commands/",
+    "skills/",
+    "agents/",
+    "scripts/",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ]
+}

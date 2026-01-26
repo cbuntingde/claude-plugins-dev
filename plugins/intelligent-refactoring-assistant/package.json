@@ -1,0 +1,31 @@
+{
+  "name": "intelligent-refactoring-assistant",
+  "version": "1.0.0",
+  "description": "Safe, context-aware refactoring tools for modernizing legacy code, extracting duplicated logic, and applying design patterns with confidence",
+  "author": {
+    "name": "cbuntingde",
+    "email": "cbuntingde@gmail.com"
+  },
+  "homepage": "https://github.com/cbuntingde/claude-plugins-dev/tree/main/plugins/intelligent-refactoring-assistant",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbuntingde/claude-plugins-dev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cbuntingde/claude-plugins-dev/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "claude-plugin",
+    "refactoring",
+    "code-quality",
+    "modernization",
+    "design-patterns"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "test": "echo \"No tests specified\" && exit 0"
+  }
+}

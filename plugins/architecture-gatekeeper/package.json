@@ -1,0 +1,33 @@
+{
+  "name": "architecture-gatekeeper",
+  "version": "1.0.0",
+  "description": "Architecture Gatekeeper - Prevent commits violating architecture patterns or creating circular dependencies",
+  "author": {
+    "name": "cbuntingde",
+    "email": "cbuntingde@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbuntingde/claude-plugins-dev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cbuntingde/claude-plugins-dev/issues",
+    "email": "cbuntingde@gmail.com"
+  },
+  "homepage": "https://github.com/cbuntingde/claude-plugins-dev/tree/main/plugins/architecture-gatekeeper",
+  "license": "MIT",
+  "keywords": [
+    "claude-plugin",
+    "architecture",
+    "circular-dependencies",
+    "code-quality",
+    "dependency-analysis",
+    "pattern-enforcement",
+    "gatekeeper",
+    "pre-commit"
+  ],
+  "engines": {
+    "bash": ">=4.0",
+    "node": ">=14.0.0"
+  }
+}

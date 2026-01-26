@@ -1,0 +1,41 @@
+{
+  "name": "compliance-assistant-plugin",
+  "version": "1.0.0",
+  "description": "Comprehensive compliance scanner plugin for Claude Code that detects GDPR, HIPAA, SOC2 violations and PII handling issues",
+  "main": "index.js",
+  "scripts": {
+    "compliance-scan": "node scripts/compliance-scan.js",
+    "gdpr-check": "node scripts/gdpr-check.js",
+    "hipaa-check": "node scripts/hipaa-check.js",
+    "soc2-check": "node scripts/soc2-check.js",
+    "pii-scan": "node scripts/pii-scan.js"
+  },
+  "keywords": [
+    "compliance",
+    "gdpr",
+    "hipaa",
+    "soc2",
+    "pii",
+    "privacy",
+    "security",
+    "audit",
+    "regulation"
+  ],
+  "author": {
+    "name": "cbuntingde",
+    "email": "cbuntingde@gmail.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/cbuntingde/claude-plugins-dev/tree/main/plugins/compliance-assistant-plugin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbuntingde/claude-plugins-dev.git",
+    "directory": "plugins/compliance-assistant-plugin"
+  },
+  "bugs": {
+    "url": "https://github.com/cbuntingde/claude-plugins-dev/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

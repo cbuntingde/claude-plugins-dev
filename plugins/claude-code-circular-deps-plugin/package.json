@@ -1,0 +1,48 @@
+{
+  "name": "claude-code-circular-deps-plugin",
+  "version": "1.0.0",
+  "description": "Claude Code plugin for detecting circular dependencies and suggesting fixes",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "circular-deps-plugin": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "prepare": "npm run build",
+    "detect-circular": "bash scripts/detect-circular.sh",
+    "fix-circular": "bash scripts/fix-circular.sh",
+    "monitor-deps": "bash scripts/monitor-deps.sh",
+    "visualize-deps": "bash scripts/visualize-deps.sh"
+  },
+  "keywords": [
+    "claude-code",
+    "plugin",
+    "mcp",
+    "circular-dependencies",
+    "dependency-analysis"
+  ],
+  "author": {
+    "name": "cbuntingde",
+    "email": "cbuntingde@gmail.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/cbuntingde/claude-plugins-dev/tree/main/plugins/claude-code-circular-deps-plugin",
+  "bugs": {
+    "url": "https://github.com/cbuntingde/claude-plugins-dev/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbuntingde/claude-plugins-dev.git"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "dependency-graph": "^1.0.0",
+    "ts-morph": "^25.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  }
+}

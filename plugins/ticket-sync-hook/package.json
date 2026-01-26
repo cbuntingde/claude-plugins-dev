@@ -1,0 +1,35 @@
+{
+  "name": "ticket-sync-hook",
+  "version": "1.0.0",
+  "description": "Automatically update Jira/Linear tickets based on git commit activity",
+  "author": {
+    "name": "Chris Bunting",
+    "email": "cbuntingde@gmail.com"
+  },
+  "homepage": "https://github.com/cbuntingde/claude-plugins-dev/tree/main/plugins/ticket-sync-hook",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbuntingde/claude-plugins-dev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cbuntingde/claude-plugins-dev/issues"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "claude-plugin",
+    "ticket-sync",
+    "jira",
+    "linear",
+    "git-hook"
+  ],
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

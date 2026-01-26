@@ -1,0 +1,29 @@
+{
+  "name": "tech-debt-tracker",
+  "version": "1.0.0",
+  "description": "Technical debt tracker that identifies and prioritizes areas needing refactoring",
+  "type": "module",
+  "author": {
+    "name": "cbuntingde",
+    "email": "cbuntingde@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbuntingde/claude-plugins-dev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cbuntingde/claude-plugins-dev/issues"
+  },
+  "homepage": "https://github.com/cbuntingde/claude-plugins-dev/tree/main/plugins/tech-debt-tracker",
+  "keywords": [
+    "claude",
+    "claude-plugin",
+    "tech-debt",
+    "refactoring",
+    "code-quality"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}

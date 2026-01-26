@@ -1,0 +1,35 @@
+{
+  "name": "auto-quality-gates",
+  "version": "1.0.0",
+  "description": "Automated testing and quality gates configuration framework for CI/CD pipelines",
+  "author": {
+    "name": "cbuntingde",
+    "email": "cbuntingde@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbuntingde/claude-plugins-dev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cbuntingde/claude-plugins-dev/issues"
+  },
+  "homepage": "https://github.com/cbuntingde/claude-plugins-dev/tree/main/plugins/auto-quality-gates",
+  "license": "MIT",
+  "keywords": [
+    "testing",
+    "quality-gates",
+    "ci-cd",
+    "code-coverage",
+    "linting",
+    "security"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "test": "echo 'No tests configured'",
+    "test:coverage": "echo 'No tests configured'",
+    "lint": "echo 'Lint not configured'",
+    "lint:fix": "echo 'Lint not configured'"
+  }
+}

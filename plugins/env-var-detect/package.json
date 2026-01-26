@@ -1,0 +1,44 @@
+{
+  "name": "env-var-detect",
+  "version": "1.0.0",
+  "description": "Automatically detect missing environment variables in your codebase",
+  "main": "scripts/detect-env-vars.js",
+  "scripts": {
+    "test": "node scripts/detect-env-vars.js",
+    "validate": "claude plugin validate ."
+  },
+  "keywords": [
+    "claude-code",
+    "plugin",
+    "environment-variables",
+    "env",
+    "detection",
+    "configuration",
+    "security"
+  ],
+  "author": {
+    "name": "cbuntingde",
+    "email": "cbuntingde@gmail.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/cbuntingde/claude-plugins-dev/tree/main/plugins/env-var-detect",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbuntingde/claude-plugins-dev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cbuntingde/claude-plugins-dev/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    ".claude-plugin/",
+    "commands/",
+    "hooks/",
+    "scripts/",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ]
+}

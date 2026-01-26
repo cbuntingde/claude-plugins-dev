@@ -1,0 +1,36 @@
+{
+  "name": "review-squad-coordinator",
+  "version": "1.0.0",
+  "description": "Auto-assign code reviewers based on code ownership patterns and expertise",
+  "main": "index.js",
+  "scripts": {
+    "assign-reviewers": "node scripts/assign-reviewers.js",
+    "analyze-ownership": "node scripts/analyze-ownership.js",
+    "generate-owners": "node scripts/generate-owners.js"
+  },
+  "keywords": [
+    "review",
+    "code-review",
+    "reviewer-assignment",
+    "ownership",
+    "pr",
+    "pull-request"
+  ],
+  "author": {
+    "name": "cbuntingde",
+    "email": "cbuntingde@gmail.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/cbuntingde/claude-plugins-dev/tree/main/plugins/review-squad-coordinator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbuntingde/claude-plugins-dev.git",
+    "directory": "plugins/review-squad-coordinator"
+  },
+  "bugs": {
+    "url": "https://github.com/cbuntingde/claude-plugins-dev/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

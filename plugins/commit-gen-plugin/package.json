@@ -1,0 +1,29 @@
+{
+  "name": "commit-gen-plugin",
+  "version": "1.0.0",
+  "description": "Automatically generate unique commit messages for staged files using conventional commit format",
+  "type": "module",
+  "author": {
+    "name": "cbuntingde",
+    "email": "cbuntingde@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbuntingde/claude-plugins-dev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cbuntingde/claude-plugins-dev/issues"
+  },
+  "homepage": "https://github.com/cbuntingde/claude-plugins-dev/tree/main/plugins/commit-gen-plugin",
+  "keywords": [
+    "claude",
+    "claude-plugin",
+    "git",
+    "commit",
+    "conventional-commits"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "wcag-scanner-plugin",
+  "version": "1.0.0",
+  "description": "Scan for WCAG 2.2 compliance issues in HTML, CSS, JavaScript, and framework components",
+  "type": "module",
+  "author": {
+    "name": "cbuntingde",
+    "email": "cbuntingde@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbuntingde/claude-plugins-dev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cbuntingde/claude-plugins-dev/issues"
+  },
+  "homepage": "https://github.com/cbuntingde/claude-plugins-dev/tree/main/plugins/wcag-scanner-plugin",
+  "keywords": [
+    "claude",
+    "claude-plugin",
+    "accessibility",
+    "wcag",
+    "a11y",
+    "wcag22"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "glob": "^10.3.10"
+  }
+}

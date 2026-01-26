@@ -1,0 +1,36 @@
+{
+  "name": "security-scanner-plugin",
+  "version": "1.0.0",
+  "description": "Security scanner plugin for Claude Code that detects OWASP Top 10 vulnerabilities and security issues",
+  "main": "index.js",
+  "scripts": {
+    "security-scan": "node scripts/security-scan.js",
+    "vulnerability-check": "node scripts/vulnerability-check.js",
+    "dependency-audit": "node scripts/dependency-audit.js"
+  },
+  "keywords": [
+    "security",
+    "vulnerability",
+    "owasp",
+    "scan",
+    "audit",
+    "static-analysis"
+  ],
+  "author": {
+    "name": "cbuntingde",
+    "email": "cbuntingde@gmail.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/cbuntingde/claude-plugins-dev/tree/main/plugins/security-scanner-plugin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbuntingde/claude-plugins-dev.git",
+    "directory": "plugins/security-scanner-plugin"
+  },
+  "bugs": {
+    "url": "https://github.com/cbuntingde/claude-plugins-dev/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "claude-crud-generator",
+  "version": "1.0.0",
+  "description": "Claude Code plugin for generating CRUD operations from database schemas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "claude-code",
+    "plugin",
+    "crud",
+    "generator",
+    "database",
+    "schema"
+  ],
+  "author": {
+    "name": "cbuntingde",
+    "email": "cbuntingde@gmail.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/cbuntingde/claude-plugins-dev/tree/main/plugins/claude-crud-generator",
+  "bugs": {
+    "url": "https://github.com/cbuntingde/claude-plugins-dev/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbuntingde/claude-plugins-dev"
+  },
+  "dependencies": {
+    "commander": "11.1.0",
+    "chalk": "5.3.0",
+    "ora": "8.0.1",
+    "inquirer": "9.2.12"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

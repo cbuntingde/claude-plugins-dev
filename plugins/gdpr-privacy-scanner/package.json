@@ -1,0 +1,48 @@
+{
+  "name": "gdpr-privacy-scanner",
+  "version": "1.0.0",
+  "description": "Production-ready GDPR/Privacy compliance scanner with PII detection, data retention validation, and consent management verification",
+  "main": "index.js",
+  "scripts": {
+    "gdpr-scan": "node scripts/gdpr-scan.js",
+    "pii-audit": "node scripts/pii-audit.js",
+    "data-retention-check": "node scripts/data-retention-check.js",
+    "consent-validate": "node scripts/consent-validate.js",
+    "privacy-impact-assessment": "node scripts/privacy-impact-assessment.js",
+    "right-to-be-forgotten": "node scripts/right-to-be-forgotten.js",
+    "data-mapping": "node scripts/data-mapping.js",
+    "cookie-consent-check": "node scripts/cookie-consent-check.js",
+    "test": "node scripts/test/run-tests.js"
+  },
+  "keywords": [
+    "gdpr",
+    "privacy",
+    "pii",
+    "data-protection",
+    "consent",
+    "retention",
+    "compliance",
+    "article-25",
+    "privacy-by-design",
+    "data-breach",
+    "dpo",
+    "dpia"
+  ],
+  "author": {
+    "name": "Chris Bunting",
+    "email": "cbuntingde@gmail.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/cbuntingde/claude-plugins-dev/tree/main/plugins/gdpr-privacy-scanner",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbuntingde/claude-plugins-dev.git",
+    "directory": "plugins/gdpr-privacy-scanner"
+  },
+  "bugs": {
+    "url": "https://github.com/cbuntingde/claude-plugins-dev/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

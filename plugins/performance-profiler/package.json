@@ -1,0 +1,19 @@
+{
+  "name": "performance-profiler",
+  "version": "1.0.0",
+  "description": "Intelligent performance profiler that identifies bottlenecks and suggests optimizations",
+  "author": {
+    "name": "cbuntingde",
+    "email": "cbuntingde@gmail.com"
+  },
+  "homepage": "https://github.com/cbuntingde/claude-plugins-dev/tree/main/plugins/performance-profiler",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbuntingde/claude-plugins-dev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cbuntingde/claude-plugins-dev/issues"
+  },
+  "license": "MIT",
+  "type": "module"
+}

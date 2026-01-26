@@ -1,0 +1,19 @@
+{
+  "name": "@claude-plugins-dev/shared-utils",
+  "version": "1.0.0",
+  "description": "Shared utilities for Claude plugin marketplace plugins",
+  "author": {
+    "name": "cbuntingde",
+    "email": "cbuntingde@gmail.com"
+  },
+  "license": "MIT",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules test.js",
+    "lint": "eslint src/"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

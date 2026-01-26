@@ -1,0 +1,41 @@
+{
+  "name": "memory-leak-detector-plugin",
+  "version": "1.0.0",
+  "description": "Claude Code plugin for detecting memory leaks and providing remediation suggestions",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "memory-leak-detector": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [
+    "claude-code",
+    "plugin",
+    "mcp",
+    "memory-leak",
+    "detection",
+    "performance"
+  ],
+  "author": {
+    "name": "cbuntingde",
+    "email": "cbuntingde@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbuntingde/claude-plugins-dev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cbuntingde/claude-plugins-dev/issues"
+  },
+  "homepage": "https://github.com/cbuntingde/claude-plugins-dev/tree/main/plugins/memory-leak-detector-plugin",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

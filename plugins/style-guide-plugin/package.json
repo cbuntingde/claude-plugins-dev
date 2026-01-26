@@ -1,0 +1,19 @@
+{
+  "name": "style-guide-plugin",
+  "version": "1.0.0",
+  "description": "Get programming style guides and best practices for any language",
+  "homepage": "https://github.com/cbuntingde/claude-plugins-dev/tree/main/plugins/style-guide-plugin",
+  "scripts": {
+    "test": "node scripts/test.js"
+  },
+  "keywords": ["claude-code", "plugin", "style-guide"],
+  "author": {
+    "name": "cbuntingde",
+    "email": "cbuntingde@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^9.4.3",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "claude-md-hook",
+  "version": "1.0.0",
+  "description": "Automatically includes CLAUDE.md project rules context with every user prompt",
+  "author": {
+    "name": "Chris Bunting",
+    "email": "cbuntingde@gmail.com"
+  },
+  "homepage": "https://github.com/cbuntingde/claude-plugins-dev/tree/main/plugins/claude-md-hook",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbuntingde/claude-plugins-dev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cbuntingde/claude-plugins-dev/issues"
+  },
+  "license": "MIT"
+}

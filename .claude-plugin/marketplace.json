@@ -1,0 +1,284 @@
+{
+  "name": "dev-plugins-two",
+  "owner": {
+    "name": "cbuntingde",
+    "email": "cbuntingde@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "api-doc-generator-plugin",
+      "source": "./plugins/api-doc-generator-plugin",
+      "description": "Generate API documentation from code annotations"
+    },
+    {
+      "name": "api-integration-generator",
+      "source": "./plugins/api-integration-generator",
+      "description": "Generate API integration code and boilerplate"
+    },
+    {
+      "name": "api-security-hardening",
+      "source": "./plugins/api-security-hardening",
+      "description": "Security hardening recommendations for API implementations"
+    },
+    {
+      "name": "architecture-advisor",
+      "source": "./plugins/architecture-advisor",
+      "description": "Provides architectural guidance and design pattern recommendations"
+    },
+    {
+      "name": "architecture-gatekeeper",
+      "source": "./plugins/architecture-gatekeeper",
+      "description": "Enforce architectural standards and patterns"
+    },
+    {
+      "name": "aria-improver",
+      "source": "./plugins/aria-improver",
+      "description": "Improve ARIA attributes for better accessibility"
+    },
+    {
+      "name": "audit-trail-logger",
+      "source": "./plugins/audit-trail-logger",
+      "description": "Log and track audit trails for code changes"
+    },
+    {
+      "name": "auto-doc-updater-plugin",
+      "source": "./plugins/auto-doc-updater-plugin",
+      "description": "Automatically update documentation as code changes"
+    },
+    {
+      "name": "auto-quality-gates",
+      "source": "./plugins/auto-quality-gates",
+      "description": "Automated quality gates for code reviews"
+    },
+    {
+      "name": "bug-catcher-plugin",
+      "source": "./plugins/bug-catcher-plugin",
+      "description": "Catch and report bugs in code"
+    },
+    {
+      "name": "bundle-size-analyzer",
+      "source": "./plugins/bundle-size-analyzer",
+      "description": "Analyze and optimize bundle sizes"
+    },
+    {
+      "name": "claude-code-api-doc-plugin",
+      "source": "./plugins/claude-code-api-doc-plugin",
+      "description": "Generate API documentation for Claude Code"
+    },
+    {
+      "name": "claude-code-circular-deps-plugin",
+      "source": "./plugins/claude-code-circular-deps-plugin",
+      "description": "Detect and resolve circular dependencies"
+    },
+    {
+      "name": "claude-crud-generator",
+      "source": "./plugins/claude-crud-generator",
+      "description": "Generate CRUD operations automatically"
+    },
+    {
+      "name": "claude-md-hook",
+      "source": "./plugins/claude-md-hook",
+      "description": "Hook for processing markdown files"
+    },
+    {
+      "name": "claude-migration-generator",
+      "source": "./plugins/claude-migration-generator",
+      "description": "Generate database migrations"
+    },
+    {
+      "name": "code-complexity-analyzer",
+      "source": "./plugins/code-complexity-analyzer",
+      "description": "Analyze code complexity and suggest simplifications"
+    },
+    {
+      "name": "code-migration-assistant",
+      "source": "./plugins/code-migration-assistant",
+      "description": "Assist with code migrations between frameworks"
+    },
+    {
+      "name": "commit-gen-plugin",
+      "source": "./plugins/commit-gen-plugin",
+      "description": "Generate commit messages automatically"
+    },
+    {
+      "name": "compliance-assistant-plugin",
+      "source": "./plugins/compliance-assistant-plugin",
+      "description": "Ensure code compliance with standards"
+    },
+    {
+      "name": "cross-repo-knowledge-navigator",
+      "source": "./plugins/cross-repo-knowledge-navigator",
+      "description": "Navigate and search across multiple repositories"
+    },
+    {
+      "name": "dead-code-hunter",
+      "source": "./plugins/dead-code-hunter",
+      "description": "Find and remove dead code"
+    },
+    {
+      "name": "dependency-safety-scanner",
+      "source": "./plugins/dependency-safety-scanner",
+      "description": "Comprehensive npm dependency analysis including vulnerability detection"
+    },
+    {
+      "name": "diagram-generator-plugin",
+      "source": "./plugins/diagram-generator-plugin",
+      "description": "Generate diagrams from code structure"
+    },
+    {
+      "name": "doc-onboarding-plugin",
+      "source": "./plugins/doc-onboarding-plugin",
+      "description": "Automates the creation of developer onboarding documentation"
+    },
+    {
+      "name": "env-generator-plugin",
+      "source": "./plugins/env-generator-plugin",
+      "description": "Generate environment configuration files"
+    },
+    {
+      "name": "env-var-detect",
+      "source": "./plugins/env-var-detect",
+      "description": "Detect and manage environment variables"
+    },
+    {
+      "name": "error-explainer",
+      "source": "./plugins/error-explainer",
+      "description": "Explain errors and provide solutions"
+    },
+    {
+      "name": "gdpr-privacy-scanner",
+      "source": "./plugins/gdpr-privacy-scanner",
+      "description": "Scan code for GDPR and privacy compliance issues"
+    },
+    {
+      "name": "hook-test-plugin",
+      "source": "./plugins/hook-test-plugin",
+      "description": "Test hooks and their functionality"
+    },
+    {
+      "name": "intelligent-refactoring-assistant",
+      "source": "./plugins/intelligent-refactoring-assistant",
+      "description": "Intelligent refactoring suggestions and assistance"
+    },
+    {
+      "name": "mcp-json-setup",
+      "source": "./plugins/mcp-json-setup",
+      "description": "Manage Claude Code MCP server configurations"
+    },
+    {
+      "name": "memory-leak-detector-plugin",
+      "source": "./plugins/memory-leak-detector-plugin",
+      "description": "Detect memory leaks in applications"
+    },
+    {
+      "name": "memory-system-plugin",
+      "source": "./plugins/memory-system-plugin",
+      "description": "Memory management system for applications"
+    },
+    {
+      "name": "mock-api-server",
+      "source": "./plugins/mock-api-server",
+      "description": "Generate mock API servers for testing"
+    },
+    {
+      "name": "multi-agent-orchestrator",
+      "source": "./plugins/multi-agent-orchestrator",
+      "description": "Orchestrate multiple AI agents for complex development tasks"
+    },
+    {
+      "name": "openapi-generator",
+      "source": "./plugins/openapi-generator",
+      "description": "Generate OpenAPI specifications from code"
+    },
+    {
+      "name": "optimization-suggester",
+      "source": "./plugins/optimization-suggester",
+      "description": "Analyzes code and suggests performance optimizations"
+    },
+    {
+      "name": "orm-sql-converter",
+      "source": "./plugins/orm-sql-converter",
+      "description": "Convert between ORM and SQL queries"
+    },
+    {
+      "name": "performance-profiler",
+      "source": "./plugins/performance-profiler",
+      "description": "Profiles and analyzes code performance"
+    },
+    {
+      "name": "pr-review-enforcer",
+      "source": "./plugins/pr-review-enforcer",
+      "description": "Enforce PR review standards and checks"
+    },
+    {
+      "name": "production-debugging-assistant",
+      "source": "./plugins/production-debugging-assistant",
+      "description": "Assist with debugging production issues"
+    },
+    {
+      "name": "review-squad-coordinator",
+      "source": "./plugins/review-squad-coordinator",
+      "description": "Coordinate multiple specialized agents for comprehensive code reviews"
+    },
+    {
+      "name": "secrets-detection-hook",
+      "source": "./plugins/secrets-detection-hook",
+      "description": "Detect secrets in code before commit"
+    },
+    {
+      "name": "security-scanner-plugin",
+      "source": "./plugins/security-scanner-plugin",
+      "description": "Scan code for security vulnerabilities"
+    },
+    {
+      "name": "semantic-code-search",
+      "source": "./plugins/semantic-code-search",
+      "description": "Search code semantically by meaning"
+    },
+    {
+      "name": "sql-query-optimizer",
+      "source": "./plugins/sql-query-optimizer",
+      "description": "Optimize SQL queries for better performance"
+    },
+    {
+      "name": "style-guide-enforcer",
+      "source": "./plugins/style-guide-enforcer",
+      "description": "Enforce code style guide compliance"
+    },
+    {
+      "name": "style-guide-plugin",
+      "source": "./plugins/style-guide-plugin",
+      "description": "Apply and manage code style guides"
+    },
+    {
+      "name": "tavily-search-plugin",
+      "source": "./plugins/tavily-search-plugin",
+      "description": "Search integration using Tavily API"
+    },
+    {
+      "name": "tech-debt-tracker",
+      "source": "./plugins/tech-debt-tracker",
+      "description": "Track and manage technical debt"
+    },
+    {
+      "name": "testing-assistant-plugin",
+      "source": "./plugins/testing-assistant-plugin",
+      "description": "Assist with generating and managing tests"
+    },
+    {
+      "name": "ticket-sync-hook",
+      "source": "./plugins/ticket-sync-hook",
+      "description": "Sync code changes with ticket systems"
+    },
+    {
+      "name": "qa-assistant",
+      "source": "./plugins/qa-assistant",
+      "description": "Comprehensive quality assurance and production readiness checks for code projects"
+    },
+    {
+      "name": "wcag-scanner-plugin",
+      "source": "./plugins/wcag-scanner-plugin",
+      "description": "Scan for WCAG accessibility compliance"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "mcp-json-setup",
+  "version": "1.0.0",
+  "description": "Plugin for automatic MCP server setup from JSON configuration",
+  "main": "index.js",
+  "scripts": {
+    "mcp-setup": "node scripts/mcp-setup.js",
+    "mcp-list": "node scripts/mcp-list.js",
+    "mcp-remove": "node scripts/mcp-remove.js",
+    "mcp-validate": "node scripts/mcp-validate.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "configuration",
+    "automation",
+    "server"
+  ],
+  "author": {
+    "name": "cbuntingde",
+    "email": "cbuntingde@gmail.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/cbuntingde/claude-plugins-dev/tree/main/plugins/mcp-json-setup",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbuntingde/claude-plugins-dev.git",
+    "directory": "plugins/mcp-json-setup"
+  },
+  "bugs": {
+    "url": "https://github.com/cbuntingde/claude-plugins-dev/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "secrets-detection-hook",
+  "version": "1.0.0",
+  "description": "Detects and blocks commands/files containing API keys, passwords, or PII before execution",
+  "author": {
+    "name": "Chris Bunting",
+    "email": "cbuntingde@gmail.com"
+  },
+  "homepage": "https://github.com/cbuntingde/claude-plugins-dev/tree/main/plugins/secrets-detection-hook",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbuntingde/claude-plugins-dev.git",
+    "directory": "plugins/secrets-detection-hook"
+  },
+  "bugs": {
+    "url": "https://github.com/cbuntingde/claude-plugins-dev/issues"
+  },
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "security",
+    "secrets-detection",
+    "pii",
+    "api-keys",
+    "hooks",
+    "claude-code-plugin"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "architecture-advisor",
+  "version": "1.0.0",
+  "description": "Architecture advisor that reviews design patterns and suggests improvements",
+  "author": {
+    "name": "cbuntingde",
+    "email": "cbuntingde@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbuntingde/claude-plugins-dev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cbuntingde/claude-plugins-dev/issues"
+  },
+  "homepage": "https://github.com/cbuntingde/claude-plugins-dev/tree/main/plugins/architecture-advisor",
+  "license": "MIT",
+  "keywords": ["architecture", "design-patterns", "solid", "code-review"],
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

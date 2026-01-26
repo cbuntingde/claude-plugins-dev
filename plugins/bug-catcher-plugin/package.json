@@ -1,0 +1,28 @@
+{
+  "name": "bug-catcher-plugin",
+  "version": "1.0.0",
+  "description": "Automatically captures tool failures and provides a command to display collected bugs in a formatted table",
+  "author": {
+    "name": "cbuntingde",
+    "email": "cbuntingde@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbuntingde/claude-plugins-dev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cbuntingde/claude-plugins-dev/issues",
+    "email": "cbuntingde@gmail.com"
+  },
+  "homepage": "https://github.com/cbuntingde/claude-plugins-dev/tree/main/plugins/bug-catcher-plugin",
+  "license": "MIT",
+  "keywords": [
+    "claude-plugin",
+    "bug-tracking",
+    "error-capture",
+    "debugging"
+  ],
+  "engines": {
+    "bash": ">=4.0"
+  }
+}

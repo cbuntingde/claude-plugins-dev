@@ -1,0 +1,48 @@
+{
+  "name": "memory-system",
+  "version": "1.0.0",
+  "description": "Automatic memory system with short-term, long-term, episodic, and learning capabilities",
+  "main": "src/index.js",
+  "type": "module",
+  "author": {
+    "name": "Chris Bunting",
+    "email": "cbuntingde@gmail.com",
+    "url": "https://github.com/cbuntingde"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/cbuntingde/claude-plugins-dev/tree/main/plugins/memory-system",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbuntingde/claude-plugins-dev.git",
+    "directory": "plugins/memory-system"
+  },
+  "bugs": {
+    "url": "https://github.com/cbuntingde/claude-plugins-dev/issues"
+  },
+  "keywords": [
+    "claude-code",
+    "plugin",
+    "memory",
+    "ai",
+    "episodic",
+    "learning"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.25.9",
+    "@babel/preset-env": "^7.26.9",
+    "eslint": "^9.18.0",
+    "eslint-plugin-security": "^3.0.1",
+    "jest": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test:coverage": "npm test -- --coverage",
+    "lint": "eslint src/ --ext .js",
+    "lint:fix": "eslint src/ --ext .js --fix",
+    "validate": "node scripts/validate.js"
+  }
+}

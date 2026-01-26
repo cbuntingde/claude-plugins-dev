@@ -1,0 +1,40 @@
+{
+  "name": "api-integration-generator",
+  "version": "1.0.0",
+  "description": "Generate fully-typed, error-handled API client code from OpenAPI specs or documentation",
+  "type": "module",
+  "scripts": {
+    "start": "node servers/api-docs-server/index.js",
+    "check-updates": "node scripts/check-api-updates.js",
+    "generate": "python scripts/generate-client.py",
+    "update": "python scripts/update-client.py"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.0.4"
+  },
+  "keywords": [
+    "claude-code-plugin",
+    "api",
+    "openapi",
+    "swagger",
+    "codegen",
+    "typescript",
+    "python"
+  ],
+  "author": {
+    "name": "cbuntingde",
+    "email": "cbuntingde@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbuntingde/claude-plugins-dev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cbuntingde/claude-plugins-dev/issues"
+  },
+  "homepage": "https://github.com/cbuntingde/claude-plugins-dev/tree/main/plugins/api-integration-generator",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

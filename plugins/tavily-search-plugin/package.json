@@ -1,0 +1,35 @@
+{
+  "name": "tavily-search-plugin",
+  "version": "1.0.0",
+  "description": "Tavily web search plugin for Claude Code - enables automatic and manual web search capabilities",
+  "author": {
+    "name": "Chris Bunting",
+    "email": "cbuntingde@gmail.com",
+    "url": "https://github.com/cbuntingde"
+  },
+  "homepage": "https://github.com/cbuntingde/claude-plugins-dev/tree/main/plugins/tavily-search-plugin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbuntingde/claude-plugins-dev.git"
+  },
+  "license": "MIT",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node scripts/test.js",
+    "test:unit": "node scripts/test.js",
+    "validate": "node scripts/validate-settings.js",
+    "check": "node scripts/validate-settings.js"
+  },
+  "keywords": [
+    "claude-code",
+    "claude-plugin",
+    "search",
+    "web-search",
+    "tavily",
+    "research"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "name": "claude-code-api-doc-plugin",
+  "version": "1.0.0",
+  "description": "Generate static API documentation sites, interactive explorers, code examples, SDK docs, and changelogs",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "jest",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "claude-code",
+    "plugin",
+    "api-documentation",
+    "swagger",
+    "openapi",
+    "documentation-generator"
+  ],
+  "author": {
+    "name": "cbuntingde",
+    "email": "cbuntingde@gmail.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/cbuntingde/claude-plugins-dev/tree/main/plugins/claude-code-api-doc-plugin",
+  "bugs": {
+    "url": "https://github.com/cbuntingde/claude-plugins-dev/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbuntingde/claude-plugins-dev"
+  },
+  "peerDependencies": {
+    "@anthropic-ai/sdk": "0.27.0"
+  },
+  "dependencies": {
+    "handlebars": "4.7.8",
+    "markdown-it": "14.0.0",
+    "yaml": "2.3.4",
+    "json-schema-to-typescript": "14.0.5",
+    "swagger-parser": "10.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.10.0",
+    "@types/markdown-it": "13.0.0",
+    "typescript": "5.3.0"
+  },
+  "claude": {
+    "displayName": "API Documentation Portal Generator",
+    "description": "Generate comprehensive API documentation sites with interactive explorers, code examples, SDK docs, and changelogs",
+    "version": "1.0.0",
+    "capabilities": [
+      "static_site_generation",
+      "interactive_api_explorer",
+      "code_example_generation",
+      "sdk_documentation",
+      "changelog_generation"
+    ],
+    "tools": [
+      {
+        "name": "generate_api_docs",
+        "description": "Generate static API documentation site from OpenAPI/Swagger spec"
+      },
+      {
+        "name": "create_api_explorer",
+        "description": "Create interactive API explorer UI"
+      },
+      {
+        "name": "generate_code_examples",
+        "description": "Generate code examples in multiple languages"
+      },
+      {
+        "name": "generate_sdk_docs",
+        "description": "Generate SDK documentation from code"
+      },
+      {
+        "name": "generate_changelog",
+        "description": "Generate changelog and migration guides"
+      }
+    ]
+  }
+}

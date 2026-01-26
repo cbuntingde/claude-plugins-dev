@@ -1,0 +1,21 @@
+{
+  "name": "claude-plugins-dev",
+  "version": "1.0.0",
+  "description": "Claude plugin marketplace with quality enforcement",
+  "author": {
+    "name": "cbuntingde",
+    "email": "cbuntingde@gmail.com"
+  },
+  "scripts": {
+    "validate": "node .claude/validation/validate-plugin.js",
+    "validate:fix": "node .claude/validation/validate-plugin.js --fix",
+    "validate:quick": "node .claude/validation/validate-plugin.js --quick",
+    "test": "cd shared-utils && npm test",
+    "audit": "npm audit --audit-level=high"
+  },
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "jsonschema": "^1.4.1"
+  },
+  "type": "module"
+}
